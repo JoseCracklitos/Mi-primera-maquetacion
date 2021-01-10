@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    height: 80px;
+    line-height: 40px;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.principal section{
+    width: 400px;
+    height: 500px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    line-height: 40px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.derecha{
+    margin-right: 15px;
+}
+
